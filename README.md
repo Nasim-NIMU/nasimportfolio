@@ -17,6 +17,8 @@ C:\nasimportfolio\django>scripts\activate.bat
 
 (django)C:\nasimportfolio\django>cd ..
 
+(django)C:\nasimportfolio>pip freeze > requirements.txt
+
 (django)C:\nasimportfolio>pip install -r requirements.txt
 
 (django)C:\nasimportfolio>python manage.py migrate
