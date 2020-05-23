@@ -1,8 +1,9 @@
 # Portfolio Django web application
 #### Django full functional portfolio + blog web application.
+![Image of aiub homepage](https://github.com/nasim-007/nasimporfolio/blob/master/portfolio.png)
+
 #### Prerequisite:
 ###### 1: python 3.8
-
 # How to install:
 ###### Download or clone the reposatory. Goto project root folder.
 
