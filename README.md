@@ -1,12 +1,12 @@
-# nasimportfolio
-Django full functional portfolio + blog web application.
+# Portfolio Django web application
+#### Django full functional portfolio + blog web application.
+#### Prerequisite:
+###### 1: python 3.8
 
-Prerequisite:
-1: python 3.8
+# How to install:
+###### Download or clone the reposatory. Goto project root folder.
 
-Install:
-Download or clone the reposatory. Goto project root folder.
-
+```
 C:\>git clone https://github.com/Nasim-NIMU/nasimportfolio.git
 
 C:\>cd nasimportfolio
@@ -24,20 +24,22 @@ C:\nasimportfolio\django>scripts\activate.bat
 (django)C:\nasimportfolio>python manage.py migrate
 
 (django)C:\nasimportfolio>python manage.py runserver
+```
 
-It will start a local server on 'http://localhost:8000'
+```
+### It will start a local server on 'http://localhost:8000'
+```
 
-create a super user using,
-
+###### create a super user using,
+```
 (django)C:\nasimportfolio>python manage.py createsuperuser
+```
+###### then go to http://localhost:8000/admin to accesss your administrations to control your dynamic application.
 
-then go to http://localhost:8000/admin to accesss your administrations to control your dynamic application.
 
-
-It's ready to deploy in heroku.Before deploy in heroku, change the local database in settings.py according to:
-
-You will find database settings like this.
-
+###### It's ready to deploy in heroku.Before deploy in heroku, change the local database in settings.py according to:
+###### You will find database settings like this.
+```
 DATABASES = {
     
     'default': {
@@ -49,9 +51,11 @@ DATABASES = {
    }
 
 }
+```
 
-You need to change it like below,
+###### You need to change it like below,
 
+```
 DATABASES = {
     
     'default': {
@@ -71,10 +75,12 @@ DATABASES = {
     }
 
 }
-
-Congrats! everything is setup. Your project ready to deploy in heroku for live your project online.
-
+```
+```
+###### Congrats! everything is setup. Your project ready to deploy in heroku for live your project online.
 Get any error, send me the scrrenshot at my inbox, i will try to give you the solution.
-https://facebook.com/Nasim.nimu2011
-
+Facebook: https://facebook.com/Nasim.nimu2011
+Email: nasim.mahmud.1996@gmail.com
+Phone: 01777-424142
+```
 
